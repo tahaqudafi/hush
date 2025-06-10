@@ -18,11 +18,11 @@ const HeroSection = () => {
       {/* 3D Robot Background - Made larger */}
       <InteractiveRobotSpline
         scene={ROBOT_SCENE_URL}
-        className="absolute inset-0 z-0 scale-125 md:scale-150" 
+        className="absolute inset-0 z-0 scale-125 md:scale-115" 
       />
 
       {/* Fallback gradient background */}
-      <div className="absolute inset-0 z-5 bg-gradient-dark opacity-80"></div>
+      <div className="absolute inset-0 z-5 bg-gradient-dark opacity-60"></div>
 
       {/* Original Background Effects - now with lower z-index */}
       <div className="absolute inset-0 z-5">
